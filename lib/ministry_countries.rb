@@ -8,6 +8,14 @@ module MinistryCountries
     COUNTRIES.map {|c| [c[0], c[1]]}
   end
   
+  def self.name(country_code)
+    return nil if COUNTRIES.nil?
+    COUNTRIES.each do |c|
+      return c[0] if c[1] == country_code
+    end
+    nil
+  end
+  
   def self.currency(country_code)
     return nil if COUNTRIES.nil?
     COUNTRIES.each do |c|
