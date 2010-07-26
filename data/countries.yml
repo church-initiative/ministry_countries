@@ -1,118 +1,118 @@
 ---
-- - Japan
-  - JP
-  - "&#165;"
-- - New Zealand
-  - NZ
-  - "&#36;"
-- - Philippines
-  - PH
-  - "&#80;&#104;&#112;"
-- - Cayman Islands
-  - KY
-  - "&#36;"
-- - United States
-  - US
-  - "&#36;"
-  - [AA, AE, AK, AL, AP, AR, AZ, CA, CO, CT, DC, DE, FL, FM, GA, GU, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MH, MI, MN, MO, MP, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, PR, PW, RI, SC, SD, TN, TX, UT, VA, VI, VT, WA, WI, WV, WY]
-- - Republic of Korea
-  - KR
-  - "&#8361;"
-- - Ecuador
-  - EC
-  - "&#36;"
-- - Namibia
-  - NA
-  - "&#36;"
-- - Hong Kong
-  - HK
-  - "&#72;&#75;&#36;"
-- - Singapore
-  - SG
-  - "&#36;"
-- - Zimbabwe
-  - ZW
-  - "&#90;&#36;"
-- - Italy
-  - IT
-  - "&#8364;"
-- - Netherlands
-  - NL
-  - "&#8364;"
-- - Switzerland
-  - CH
-  - "&#67;&#72;&#70;"
-- - Trinidad and Tobago
-  - TT
-  - "&#84;&#84;&#36;"
-- - South Africa
-  - ZA
-  - "&#82;"
-- - Australia
-  - AU
-  - "&#36;"
-  - [ACT, NSW, NT, QLD, SA, TAS, VIC, WA]
-- - Jamaica
-  - JM
-  - "&#74;&#36;"
-- - Bermuda
-  - BM
-  - "&#36;"
-- - Guam
-  - GU
-  - "&#36;"
-- - Ireland
-  - IE
-  - "&#8364;"
-- - Cyprus
-  - CY
-  - "&#8364;"
-- - Spain
-  - ES
-  - "&#8364;"
-- - Costa Rica
-  - CR
-  - "&#8353;"
-- - Canada
-  - CA
-  - "&#36;"
-  - ["ON", AB, BC, MB, NB, NL, NS, NT, NU, PE, QC, SK, YT]
-- - Tanzania
-  - TZ
-  - "&#84;&#90;&#83;"
-- - United Kingdom
-  - UK
-  - "&#163;"
-- - Antigua and Barbuda
-  - AG
-  - "&#36;"
-- - Malaysia
-  - MY
-  - "&#82;&#77;"
-- - China
-  - CN
-  - "&#165;"
-- - Latvia
-  - LV
-  - "&#76;&#115;"
-- - Germany
-  - DE
-  - "&#8364;"
-- - Bahamas
-  - BS
-  - "&#36;"
-- - Bolivia
-  - BO
-  - "&#36;&#98;"
-- - Brazil
-  - BR
-  - "&#82;&#36;"
-- - Nigeria
-  - NG
-  - "&#8358;"
-- - Saint Lucia
-  - LC
-  - "&#69;&#67;&#36;"
-- - United Arab Emirates
-  - AE
-  - "&#65;&#69;&#68;"
+JP:
+    name:       Japan
+    currency:   "&#165;"
+NZ:
+    name:       New Zealand
+    currency:   "&#36;"
+PH:
+    name:       Philippines
+    currency:   "&#80;&#104;&#112;"
+KY:
+    name:       Cayman Islands
+    currency:   "&#36;"
+US:
+    name:       United States
+    currency:   "&#36;"
+    states:     [AA, AE, AK, AL, AP, AR, AZ, CA, CO, CT, DC, DE, FL, FM, GA, GU, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MH, MI, MN, MO, MP, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, PR, PW, RI, SC, SD, TN, TX, UT, VA, VI, VT, WA, WI, WV, WY]
+KR:
+    name:       Republic of Korea
+    currency:   "&#8361;"
+EC:
+    name:       Ecuador
+    currency:   "&#36;"
+NA:
+    name:       Namibia
+    currency:   "&#36;"
+HK:
+    name:       Hong Kong
+    currency:   "&#72;&#75;&#36;"
+SG:
+    name:       Singapore
+    currency:   "&#36;"
+ZW:
+    name:       Zimbabwe
+    currency:   "&#90;&#36;"
+IT:
+    name:       Italy
+    currency:   "&#8364;"
+NL:
+    name:       Netherlands
+    currency:   "&#8364;"
+CH:
+    name:       Switzerland
+    currency:   "&#67;&#72;&#70;"
+TT:
+    name:       Trinidad and Tobago
+    currency:   "&#84;&#84;&#36;"
+ZA:
+    name:       South Africa
+    currency:   "&#82;"
+AU:
+    name:       Australia
+    currency:   "&#36;"
+    states:     [ACT, NSW, NT, QLD, SA, TAS, VIC, WA]
+JM:
+    name:       Jamaica
+    currency:   "&#74;&#36;"
+BM:
+    name:       Bermuda
+    currency:   "&#36;"
+GU:
+    name:       Guam
+    currency:   "&#36;"
+IE:
+    name:       Ireland
+    currency:   "&#8364;"
+CY:
+    name:       Cyprus
+    currency:   "&#8364;"
+ES:
+    name:       Spain
+    currency:   "&#8364;"
+CR:
+    name:       Costa Rica
+    currency:   "&#8353;"
+CA:
+    name:       Canada
+    currency:   "&#36;"
+    states:     ["ON", AB, BC, MB, NB, NL, NS, NT, NU, PE, QC, SK, YT]
+TZ:
+    name:       Tanzania
+    currency:   "&#84;&#90;&#83;"
+UK:
+    name:       United Kingdom
+    currency:   "&#163;"
+AG:
+    name:       Antigua and Barbuda
+    currency:   "&#36;"
+MY:
+    name:       Malaysia
+    currency:   "&#82;&#77;"
+CN:
+    name:       China
+    currency:   "&#165;"
+LV:
+    name:       Latvia
+    currency:   "&#76;&#115;"
+DE:
+    name:       Germany
+    currency:   "&#8364;"
+BS:
+    name:       Bahamas
+    currency:   "&#36;"
+BO:
+    name:       Bolivia
+    currency:   "&#36;&#98;"
+BR:
+    name:       Brazil
+    currency:   "&#82;&#36;"
+NG:
+    name:       Nigeria
+    currency:   "&#8358;"
+LC:
+    name:       Saint Lucia
+    currency:   "&#69;&#67;&#36;"
+AE:
+    name:       United Arab Emirates
+    currency:   "&#65;&#69;&#68;"
