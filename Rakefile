@@ -1,14 +1,14 @@
-require 'rubygems'
-require 'rake'
-require 'echoe'
-
-Echoe.new('ministry_countries', '0.1.0') do |p|
-  p.description    = "Countries, codes, currencies and states/provinces."
-  p.url            = ""
-  p.author         = "Jeremy Smith"
-  p.email          = "jsmith@churchinitiative.org"
-  p.ignore_pattern = ["tmp/*", "script/*"]
-  p.development_dependencies = []
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gem|
+    gem.name = "ministry_countries"
+    gem.summary = %Q{Country data for Church Initiative apps}
+    gem.description = %Q{Countries, codes, currencies and states/provinces}
+    gem.email = "jsmith@churchinitiative.org"
+    gem.homepage = "http://churchinitiative.org/"
+    gem.authors = ["Jeremy Smith"]
+    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+  end
+rescue LoadError
+  puts "Jeweler (or a dependency) not available. This is only required if you plan to package referrals as a gem."
 end
-
-Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
