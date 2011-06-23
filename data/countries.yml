@@ -119,3 +119,6 @@ AE:
 TH:
     name:       Thailand
     currency:   "&#3647;"
+ID:
+    name:       Indonesia
+    currency:   "Rp"
