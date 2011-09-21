@@ -122,3 +122,6 @@ TH:
 ID:
     name:       Indonesia
     currency:   "Rp"
+BE:
+    name:       Belgium
+    currency:   "&#8364;"
