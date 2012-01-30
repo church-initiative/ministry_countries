@@ -5,7 +5,7 @@ begin
     gem.summary = %Q{Country data for Church Initiative apps}
     gem.description = %Q{Countries, codes, currencies and states/provinces}
     gem.email = "jsmith@churchinitiative.org"
-    gem.homepage = "http://churchinitiative.org/"
+    gem.homepage = "https://github.com/church-initiative/ministry_countries"
     gem.authors = ["Jeremy Smith"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
