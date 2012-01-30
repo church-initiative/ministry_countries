@@ -1,5 +1,3 @@
-require File.expand_path("../lib/your_gem/version", __FILE__)
-
 Gem::Specification.new do |gem|
   gem.name    = "ministry_countries"
   gem.version = "0.1.3"
